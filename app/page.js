@@ -2,6 +2,8 @@ import HeroSecction from "./components/HeroSecction";
 import Navigationbar from "./components/Navigationbar";
 
 import Image from "next/image";
+import ServicesSecction from "./components/ServicesSecction";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -9,6 +11,9 @@ export default function Home() {
       <Navigationbar />
       <main>
         <HeroSecction />
+        <ServicesSecction />
+
+        <Footer />
       </main>
     </>
   );

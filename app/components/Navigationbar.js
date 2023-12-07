@@ -83,7 +83,7 @@ export default function Navigationbar() {
           >
             <Button
               as={Link}
-              className=" bg-primary-black text-primary-white dark:bg-primary-white dark:text-primary-black  text-base md:text-lg font-medium"
+              className=" bg-primary-black text-primary-white dark:bg-primary-white dark:text-primary-black text-base md:text-lg font-medium"
               href="https://wa.link/u1ylm8"
               variant="flat"
             >

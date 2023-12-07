@@ -15,7 +15,7 @@ body {
   background: hsla(273, 75%, 67%, 1);
 
   background: linear-gradient(
-    180deg,
+    30deg,
     hsla(273, 75%, 67%, 1) 0%,
     hsla(356, 100%, 68%, 1) 36%,
     hsla(18, 100%, 67%, 1) 71%,
@@ -23,7 +23,7 @@ body {
   );
 
   background: -moz-linear-gradient(
-    180deg,
+    30deg,
     hsla(273, 75%, 67%, 1) 0%,
     hsla(356, 100%, 68%, 1) 36%,
     hsla(18, 100%, 67%, 1) 71%,
@@ -31,7 +31,7 @@ body {
   );
 
   background: -webkit-linear-gradient(
-    180deg,
+    30deg,
     hsla(273, 75%, 67%, 1) 0%,
     hsla(356, 100%, 68%, 1) 36%,
     hsla(18, 100%, 67%, 1) 71%,

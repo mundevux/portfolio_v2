@@ -11,8 +11,8 @@ export default function HeroSecction() {
     "Diseñador UX",
   ];
   return (
-    <div>
-      <section className="flex flex-col justify-center items-center h-screen px-4">
+    <div className="mt-20">
+      <section className="flex flex-col justify-center items-center mb-20 px-4">
         <div className="rounded-full border-2 mb-5">
           <Image
             src={ProfilePhotho}
@@ -27,11 +27,11 @@ export default function HeroSecction() {
             <span className="hidden md:block mt-2">
               {" "}
               Desarrollador{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four font-medium">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
                 Fullstack
               </span>{" "}
               especializado en el Desarrollo{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four  font-medium">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four ">
                 Frontend
               </span>
               .
