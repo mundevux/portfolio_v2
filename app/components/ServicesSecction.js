@@ -1,4 +1,6 @@
+"use client";
 import Accordion from "./Accordion";
+import { motion } from "framer-motion";
 import { Button } from "@nextui-org/react";
 
 export default function ServicesSecction() {
@@ -34,12 +36,22 @@ export default function ServicesSecction() {
           </span>
         </h2>
         <div className=" flex flex-col items-start justify-center md:flex-row py-5">
-          <Button className="rounded-full md:mx-5 principal-bg-gradient font-semibold mb-4">
-            CONTACTAME
-          </Button>
-          <Button className="rounded-full md:mx-5 bg-transparent border border-primary-black dark:border-primary-white text-primary-black dark:text-primary-white font-semibold mb-4">
-            TODOS MIS TRABAJOS
-          </Button>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+          >
+            <Button className="rounded-full md:mx-5 principal-bg-gradient font-semibold mb-4">
+              CONTACTAME
+            </Button>
+          </motion.div>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+          >
+            <Button className="rounded-full md:mx-5 bg-transparent border border-primary-black dark:border-primary-white text-primary-black dark:text-primary-white font-semibold mb-4">
+              TODOS MIS TRABAJOS
+            </Button>
+          </motion.div>
         </div>
       </div>
       <section className="container max-w-7xl mx-auto px-2">
