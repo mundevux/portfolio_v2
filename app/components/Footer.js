@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="container mx-auto border-t-2 border-primary-black/20">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 mt-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
         <div className="flex flex-col justify-center items-start">
           <p className="font-bold text-xl md:text-2xl text-primary-black dark:text-primary-white">
             MundevUX
