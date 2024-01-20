@@ -5,6 +5,8 @@ import { Button } from "@nextui-org/react";
 import { motion } from "framer-motion";
 import ProfilePhotho from "../assets/Foto_Camilo_Cuitiva.jpg";
 import Estrella from "../assets/estrella.svg";
+import PrincipalButton from "./PrincipalButton";
+import SecondaryButton from "./SecondaryButton";
 
 export default function HeroSecction() {
   const cargos = [
@@ -16,7 +18,7 @@ export default function HeroSecction() {
   return (
     <div className="mt-20">
       <section className="flex flex-col justify-center items-center mb-20 px-4">
-        <div className="rounded-full border-2 mb-5">
+        <div className="rounded-full border-2 border-primary-black dark:border-primary-white mb-5">
           <Image
             src={ProfilePhotho}
             alt="Foto de Perfil Camilo Cuitiva"
@@ -62,22 +64,11 @@ export default function HeroSecction() {
           </p>
         </div>
         <div className="flex flex-col justify-center md:flex-row w-full py-5">
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-          >
-            <Button className="md:mx-5 w-full md:w-auto principal-bg-gradient font-semibold mb-4">
-              CONTACTAME
-            </Button>
-          </motion.div>
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-          >
-            <Button className="md:mx-5 w-full md:w-auto bg-transparent border border-primary-black dark:border-primary-white text-primary-black dark:text-primary-white font-semibold mb-4">
-              TODOS MIS TRABAJOS
-            </Button>
-          </motion.div>
+          <PrincipalButton
+            text="CONTACTAME"
+            url="mailto:camiloandres174@gmail.com"
+          />
+          <SecondaryButton text="TODOS MIS TRABAJOS" url="#projects" />
         </div>
       </section>
       <div className="principal-bg-gradient h-4 md:h-12 w-full">

@@ -26,5 +26,5 @@ module.exports = {
     },
   },
 
-  plugins: [nextui()],
+  plugins: [nextui(), require("@codaworks/react-glow/tailwind")],
 };

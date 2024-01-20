@@ -2,6 +2,8 @@
 import Accordion from "./Accordion";
 import { motion } from "framer-motion";
 import { Button } from "@nextui-org/react";
+import PrincipalButton from "./PrincipalButton";
+import SecondaryButton from "./SecondaryButton";
 
 export default function ServicesSecction() {
   const services = [
@@ -27,7 +29,7 @@ export default function ServicesSecction() {
     },
   ];
   return (
-    <div className="mt-20">
+    <div id="services" className="mt-20">
       <div className="container mx-auto px-4">
         <h2 className="text-primary-black dark:text-primary-white font-bold text-3xl md:text-4xl pb-5">
           Servicios{" "}
@@ -36,22 +38,11 @@ export default function ServicesSecction() {
           </span>
         </h2>
         <div className=" flex flex-col justify-center md:flex-row py-5">
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-          >
-            <Button className="rounded-full md:mx-5 principal-bg-gradient font-semibold mb-4">
-              CONTACTAME
-            </Button>
-          </motion.div>
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-          >
-            <Button className="rounded-full md:mx-5 bg-transparent border border-primary-black dark:border-primary-white text-primary-black dark:text-primary-white font-semibold mb-4">
-              TODOS MIS TRABAJOS
-            </Button>
-          </motion.div>
+          <PrincipalButton
+            text="CONTACTAME"
+            url="mailto:camiloandres174@gmail.com"
+          />
+          <SecondaryButton text="VER PROYECTOS" url="#projects" />
         </div>
       </div>
       <section className="container max-w-7xl mx-auto px-2">
