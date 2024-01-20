@@ -17,7 +17,24 @@ import { motion } from "framer-motion";
 export default function Navigationbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const menuItems = ["Inicio", "Servicios", "Proyectos", "Sobre mi", "Blog"];
+  const menuItems = [
+    {
+      title: "Inicio",
+      href: "#",
+    },
+    {
+      title: "Servicios",
+      href: "#services",
+    },
+    {
+      title: "Proyectos",
+      href: "#projects",
+    },
+    {
+      title: "Sobre mi",
+      href: "#about-me",
+    },
+  ];
 
   return (
     <Navbar className="bg-transparent" onMenuOpenChange={setIsMenuOpen}>
@@ -27,13 +44,15 @@ export default function Navigationbar() {
           className="sm:hidden text-primary-black dark:text-primary-white"
         />
         <NavbarBrand>
-          <p className="font-bold text-xl md:text-2xl text-inherit ">
-            Mundev
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
-              .
-            </span>
-            UX
-          </p>
+          <Link href="#" className="text-primary-black dark:text-primary-white">
+            <p className="font-bold text-xl md:text-2xl text-inherit ">
+              Mundev
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
+                .
+              </span>
+              UX
+            </p>
+          </Link>
         </NavbarBrand>
       </NavbarContent>
 
@@ -41,14 +60,14 @@ export default function Navigationbar() {
         <NavbarItem>
           <Link
             href="#"
-            className="text-lg text-primary-black dark:text-primary-white "
+            className="text-lg text-primary-black dark:text-primary-white"
           >
             Inicio
           </Link>
         </NavbarItem>
         <NavbarItem>
           <Link
-            href="#"
+            href="#services"
             className="text-lg text-primary-black dark:text-primary-white"
           >
             Servicios
@@ -56,7 +75,7 @@ export default function Navigationbar() {
         </NavbarItem>
         <NavbarItem>
           <Link
-            href="#"
+            href="#projects"
             className="text-lg text-primary-black dark:text-primary-white"
           >
             Proyectos
@@ -64,7 +83,7 @@ export default function Navigationbar() {
         </NavbarItem>
         <NavbarItem>
           <Link
-            href="#"
+            href="#about-me"
             className="text-lg text-primary-black dark:text-primary-white"
           >
             Sobre mi
@@ -81,6 +100,7 @@ export default function Navigationbar() {
               as={Link}
               className="bg-primary-black text-primary-white dark:bg-primary-white dark:text-primary-black text-base md:text-lg font-medium"
               href="https://wa.link/79edlf"
+              target="_blank"
               variant="flat"
             >
               ¡Hablemos!
@@ -92,11 +112,11 @@ export default function Navigationbar() {
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
-              className="w-full text-primary-black dark:text-primary-white"
-              href="#"
+              className="w-full text-primary-black "
+              href={item.href}
               size="lg"
             >
-              {item}
+              {item.title}
             </Link>
           </NavbarMenuItem>
         ))}
