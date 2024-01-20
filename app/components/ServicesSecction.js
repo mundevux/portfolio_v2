@@ -35,7 +35,7 @@ export default function ServicesSecction() {
             Destacados
           </span>
         </h2>
-        <div className=" flex flex-col items-start justify-center md:flex-row py-5">
+        <div className=" flex flex-col justify-center md:flex-row py-5">
           <motion.div
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}

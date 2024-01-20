@@ -28,7 +28,11 @@ export default function Navigationbar() {
         />
         <NavbarBrand>
           <p className="font-bold text-xl md:text-2xl text-inherit ">
-            MundevUX
+            Mundev
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
+              .
+            </span>
+            UX
           </p>
         </NavbarBrand>
       </NavbarContent>
@@ -37,7 +41,7 @@ export default function Navigationbar() {
         <NavbarItem>
           <Link
             href="#"
-            className="text-lg text-primary-black dark:text-primary-white"
+            className="text-lg text-primary-black dark:text-primary-white "
           >
             Inicio
           </Link>
@@ -66,14 +70,6 @@ export default function Navigationbar() {
             Sobre mi
           </Link>
         </NavbarItem>
-        <NavbarItem>
-          <Link
-            href="#"
-            className="text-lg text-primary-black dark:text-primary-white"
-          >
-            Blog
-          </Link>
-        </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
@@ -83,8 +79,8 @@ export default function Navigationbar() {
           >
             <Button
               as={Link}
-              className=" bg-primary-black text-primary-white dark:bg-primary-white dark:text-primary-black text-base md:text-lg font-medium"
-              href="https://wa.link/u1ylm8"
+              className="bg-primary-black text-primary-white dark:bg-primary-white dark:text-primary-black text-base md:text-lg font-medium"
+              href="https://wa.link/79edlf"
               variant="flat"
             >
               ¡Hablemos!

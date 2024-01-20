@@ -50,7 +50,7 @@ export default function ProjectsSecction() {
                   whileHover={{ scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                 >
-                  <Button className="rounded-full mx-2 w-full md:w-auto bg-primary-white text-primary-black dark:bg-primary-black dark:text-primary-white font-semibold mb-4">
+                  <Button className="mx-2 w-full md:w-auto bg-primary-white text-primary-black dark:bg-primary-black dark:text-primary-white font-semibold mb-4">
                     Mira el código
                   </Button>
                 </motion.div>
@@ -58,8 +58,8 @@ export default function ProjectsSecction() {
                   whileHover={{ scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                 >
-                  <Button className="rounded-full mx-2 principal-bg-gradient font-semibold mb-4">
-                    Mira el sitio
+                  <Button className="mx-2 principal-bg-gradient font-semibold mb-4">
+                    Ir a el sitio
                   </Button>
                 </motion.div>
               </div>

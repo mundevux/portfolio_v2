@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Navigationbar />
-      <main>
+      <main className="max-w-5xl mx-auto">
         <HeroSecction />
         <ServicesSecction />
         <ProjectsSecction />
