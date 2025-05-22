@@ -1,10 +1,11 @@
-import HeroSecction from "./components/HeroSecction";
-import Navigationbar from "./components/Navigationbar";
+import HeroSecction from "./components/sections/HeroSecction";
+import Navigationbar from "./components/sections/Navigationbar";
 
 import Image from "next/image";
-import ServicesSecction from "./components/ServicesSecction";
-import Footer from "./components/Footer";
-import ProjectsSecction from "./components/ProjectsSecction";
+import ServicesSecction from "./components/sections/ServicesSecction";
+import Footer from "./components/sections/Footer";
+import ProjectsSecction from "./components/sections/ProjectsSecction";
+import AboutSection from "./components/sections/AboutSecction";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <HeroSecction />
         <ServicesSecction />
         <ProjectsSecction />
+        <AboutSection />
         <Footer />
       </main>
     </>
