@@ -12,7 +12,7 @@ export default function PrincipalButton({ text, link, as }) {
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="md:mx-5 w-full md:w-auto principal-bg-gradient font-semibold mb-4"
+        className="md:mx-5 w-full md:w-auto principal-bg-gradient font-semibold mb-4 "
       >
         {text}
       </Button>

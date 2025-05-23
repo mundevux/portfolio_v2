@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function AboutSection() {
   return (
-    <section id="about-me" className="mt-20 mb-10">
+    <section id="about-me" className="mt-20 mb-10 dark:text-primary-white">
       <div className="container mx-auto px-4">
         <div className="mb-6">
           <h1 className="text-primary-black dark:text-primary-white font-bold text-3xl md:text-4xl ">
@@ -23,14 +23,20 @@ export default function AboutSection() {
         </div>
         <div className="mb-6">
           <p className="mb-2">
-            Soy Camilo, estudiante de ultimo semestre de Ingeniería de Software
-            con una fuerte motivación por crear experiencias digitales que sean
-            útiles y visualmente atractivas. Aunque inicié como Analista
-            Contable, el gusto por la tecnología siempre estuvo presente, y
-            decidí apostarle a lo que realmente me apasiona: el desarrollo web.
+            Soy estudiante de último semestre de Ingeniería de Software, con una
+            transición desde la contaduría hacia mi verdadera pasión: el
+            desarrollo.
           </p>
           <p className="mb-2">
-            Actualmente estoy aprendiendo{" "}
+            He trabajado como freelancer creando sitios web con{" "}
+            <span className="text-transparent font-medium bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
+              WordPress
+            </span>{" "}
+            y{" "}
+            <span className="text-transparent font-medium bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
+              Elementor
+            </span>
+            , y actualmente estoy aprendiendo{" "}
             <span className="text-transparent font-medium bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
               PHP
             </span>{" "}
@@ -38,53 +44,22 @@ export default function AboutSection() {
             <span className="text-transparent font-medium bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
               Flutter
             </span>
-            , mientras refuerzo mis conocimientos en tecnologías como{" "}
-            <span className="text-transparent font-medium bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
-              JavaScript
-            </span>
-            ,{" "}
-            <span className="text-transparent font-medium bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
-              HTML
-            </span>
-            ,{" "}
-            <span className="text-transparent font-medium bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
-              CSS
-            </span>{" "}
-            y herramientas como{" "}
-            <span className="text-transparent font-medium bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
-              Wordpress
-            </span>{" "}
-            (especialmente con
-            <span className="text-transparent font-medium bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
-              Elementor
-            </span>
-            ). He trabajado como freelancer creando sitios web y sigo
-            aprendiendo sobre creación de temas y plugins personalizados.
+            , para ampliar mis habilidades fullstack.
           </p>
           <p className="mb-2">
-            Uno de los proyectos que más me marcó fue durante un bootcamp con{" "}
-            {""}
-            <span className="text-transparent font-medium bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
-              Peaku
-            </span>
-            , colaborando con la startup{" "}
+            Destaco mi participación en un proyecto con la startup{" "}
             <span className="text-transparent font-medium bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
               Xiclo
             </span>
-            . Allí desarrollé con{" "}
+            , donde desarrollé una landing page con{" "}
             <span className="text-transparent font-medium bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
               Next.js
             </span>
-            una landing page conectada a una API, que mostraba información
-            dinámica sobre empaques reutilizables escaneados mediante un QR. Una
-            experiencia que me enseñó muchísimo sobre desarrollo ágil y trabajo
-            con propósito.
+            conectada a una API, mostrando información dinámica mediante un QR.
           </p>{" "}
           <p className="mb-2">
-            Me apasiona aprender, resolver problemas y trabajar en equipo. Busco
-            un entorno en el que pueda seguir creciendo, compartir con personas
-            talentosas y aportar desde lo que sé y lo que estoy construyendo día
-            a día. Estoy listo para seguir evolucionando en el mundo tech 🚀.
+            Me motiva aprender continuamente, resolver problemas y colaborar en
+            equipo para crear soluciones digitales efectivas.
           </p>
         </div>
         <div className="flex flex-col md:flex-row gap-4 pt-4 pb-8">

@@ -27,7 +27,7 @@ export default function ServicesSection() {
     },
   ];
   return (
-    <div className="mt-20" id="services">
+    <div className="mt-20 dark:text-primary-white " id="services">
       <div className="container mx-auto px-4">
         <h2 className="text-primary-black dark:text-primary-white font-bold text-3xl md:text-4xl pb-5">
           Lo que puedo{" "}

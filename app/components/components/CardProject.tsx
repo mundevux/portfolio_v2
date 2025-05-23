@@ -32,10 +32,10 @@ export default function CardProject({
           className="transition-transform duration-300 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-primary-black/50 via-primary-black/20 to-transparent p-4 flex flex-col justify-end">
-          <h3 className="text-primary-white dark:text-primary-black font-bold text-2xl md:text-3xl mt-5 ml-4">
+          <h3 className="text-primary-white font-bold text-2xl md:text-3xl mt-5 ml-4">
             {nameProject}
           </h3>
-          <p className="text-primary-white dark:text-primary-black text-sm md:text-lg ml-4">
+          <p className="text-primary-white text-sm md:text-lg ml-4">
             {descriptionProject}
           </p>
         </div>

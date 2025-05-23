@@ -40,7 +40,7 @@ export default function HeroSecction() {
               .
             </span>
           </p>
-          <p className="text-center w-full md:w-4/6 m-auto">
+          <p className="text-center w-full md:w-4/6 m-auto dark:text-primary-white">
             Estoy enfocado en{" "}
             <span className="text-transparent font-medium bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
               frontend

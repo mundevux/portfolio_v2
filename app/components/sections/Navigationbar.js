@@ -27,7 +27,7 @@ export default function Navigationbar() {
           className="sm:hidden text-primary-black dark:text-primary-white"
         />
         <NavbarBrand>
-          <p className="font-bold text-xl md:text-2xl text-inherit ">
+          <p className="font-bold text-xl md:text-2xl text-inherit dark:text-white">
             Mundev
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
               .

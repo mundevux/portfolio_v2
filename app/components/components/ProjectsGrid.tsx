@@ -13,7 +13,7 @@ const projects = [
     srcImage: imagenProyectoImpulsa,
     altImage: "Web Impulsa Colombia",
     urlProject: "https://github.com/mundevux/impulsa-colombia-sas",
-    className: "col-span-1 row-span-1 lg:col-span-3 lg:row-span-2",
+    className: "col-span-1 row-span-2 lg:col-span-3 lg:row-span-2 ",
   },
   {
     nameProject: "Código Creativo",
@@ -22,7 +22,7 @@ const projects = [
     srcImage: imagenProyectoCodigo,
     altImage: "Web Código Creativo - Agencia de Marketing Digital",
     urlProject: "https://www.codcreativo.com/",
-    className: "col-span-1 row-span-1 lg:col-span-2 lg:row-span-2",
+    className: "col-span-1 row-span-2 lg:col-span-2 lg:row-span-2",
   },
   {
     nameProject: "JRG Logistics",
@@ -31,7 +31,7 @@ const projects = [
     srcImage: imagenProyectoJRG,
     altImage: "Web JRG Logistics",
     urlProject: "https://jrglogistics.com.co/",
-    className: "col-span-1 row-span-1 lg:col-span-2 lg:row-span-2",
+    className: "col-span-1 row-span-2 lg:col-span-2 lg:row-span-2",
   },
   {
     nameProject: "Mi Haus Colombia",
@@ -40,7 +40,7 @@ const projects = [
     srcImage: imagenProyectoMiHaus,
     altImage: "Web Mi Haus Colombia",
     urlProject: "https://mihauscol.com/",
-    className: "col-span-1 row-span-1 lg:col-span-3 lg:row-span-2",
+    className: "col-span-1 row-span-2 lg:col-span-3 lg:row-span-2",
   },
 ];
 
