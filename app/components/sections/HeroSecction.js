@@ -1,10 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import ProfilePhotho from "@/app/assets/Foto_Camilo_Cuitiva.jpg";
-import Estrella from "@/app/assets/estrella.svg";
-import PrincipalButton from "@/app/components/components/PrincipalButton";
-import SecondButton from "@/app/components/components/SecondButton";
+import ProfilePhotho from "../../assets/Foto_Camilo_Cuitiva.jpg";
+import Estrella from "../../assets/estrella.svg";
+import PrincipalButton from "../components/PrincipalButton";
+import SecondButton from "../components/SecondButton";
 
 export default function HeroSecction() {
   const cargos = [

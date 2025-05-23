@@ -1,9 +1,9 @@
 "use client";
 import Accordion from "../components/Accordion";
-import PrincipalButton from "@/app/components/components/PrincipalButton";
-import SecondButton from "@/app/components/components/SecondButton";
+import PrincipalButton from "../components/PrincipalButton";
+import SecondButton from "../components/SecondButton";
 
-export default function ServicesSecction() {
+export default function ServicesSection() {
   const services = [
     {
       title: "Desarrollo Web Responsivo",

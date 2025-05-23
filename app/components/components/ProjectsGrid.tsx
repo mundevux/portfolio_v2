@@ -1,10 +1,9 @@
 import CardProject from "./CardProject";
 import React from "react";
-import imagenPortfolio from "@/app/assets/Web_MundevUX.jpeg";
-import imagenProyectoImpulsa from "@/app/assets/Web_Impulsa_Colombia.png";
-import imagenProyectoCodigo from "@/app/assets/Web_Codigo_Creativo.png";
-import imagenProyectoJRG from "@/app/assets/Web_JRG_Logistic.png";
-import imagenProyectoMiHaus from "@/app/assets/Web_Mi_Huas.png";
+import imagenProyectoImpulsa from "../../assets/Web_Impulsa_Colombia.png";
+import imagenProyectoCodigo from "../../assets/Web_Codigo_Creativo.png";
+import imagenProyectoJRG from "../../assets/Web_JRG_Logistic.png";
+import imagenProyectoMiHaus from "../../assets/Web_Mi_Huas.png";
 
 const projects = [
   {
