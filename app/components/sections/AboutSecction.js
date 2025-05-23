@@ -14,7 +14,7 @@ export default function AboutSection() {
           </h1>
           <h2 className=" font-bold text-lg md:text-xl">
             {" "}
-            Desarrollador Fullstack{" "}
+            Desarrollador Web{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
               •
             </span>{" "}
@@ -133,7 +133,7 @@ export default function AboutSection() {
                 <h2 className=" font-bold text-lg md:text-xl">
                   Código Creativo
                 </h2>
-                <p>Web Developer - Freelancer</p>
+                <p>Desarrollador web - Freelance</p>
               </div>
               <p className="text-primary-black/50 dark:text-primary-white/50">
                 2024 - Actual
