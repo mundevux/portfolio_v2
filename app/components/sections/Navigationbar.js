@@ -40,7 +40,7 @@ export default function Navigationbar() {
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
           <Link
-            href="#"
+            href="#hero"
             className="text-lg text-primary-black dark:text-primary-white "
           >
             Inicio
@@ -48,7 +48,7 @@ export default function Navigationbar() {
         </NavbarItem>
         <NavbarItem>
           <Link
-            href="#"
+            href="#services"
             className="text-lg text-primary-black dark:text-primary-white"
           >
             Servicios
@@ -56,7 +56,7 @@ export default function Navigationbar() {
         </NavbarItem>
         <NavbarItem>
           <Link
-            href="#"
+            href="#projects"
             className="text-lg text-primary-black dark:text-primary-white"
           >
             Proyectos
@@ -64,7 +64,7 @@ export default function Navigationbar() {
         </NavbarItem>
         <NavbarItem>
           <Link
-            href="#"
+            href="#about-me"
             className="text-lg text-primary-black dark:text-primary-white"
           >
             Sobre mi
@@ -80,7 +80,7 @@ export default function Navigationbar() {
             <Button
               as={Link}
               className="bg-primary-black text-primary-white dark:bg-primary-white dark:text-primary-black text-base md:text-lg font-medium"
-              href="https://wa.link/79edlf"
+              href="https://wa.link/ui6ih8"
               variant="flat"
             >
               ¡Hablemos!

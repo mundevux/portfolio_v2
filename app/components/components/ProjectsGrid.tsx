@@ -9,7 +9,7 @@ const projects = [
   {
     nameProject: "Impulsa Colombia",
     descriptionProject:
-      "Poryecto realizado para una constructora colombiana, desarrollado en Next.js",
+      "Desarrollo de sitio web para una constructora colombiana utilizando Next.js.",
     srcImage: imagenProyectoImpulsa,
     altImage: "Web Impulsa Colombia",
     urlProject: "https://github.com/mundevux/impulsa-colombia-sas",
@@ -18,7 +18,7 @@ const projects = [
   {
     nameProject: "Código Creativo",
     descriptionProject:
-      "Web para una agencia de marketing digital, desarrollado en Framer",
+      "Creación de sitio web para una agencia de marketing digital con Framer.",
     srcImage: imagenProyectoCodigo,
     altImage: "Web Código Creativo - Agencia de Marketing Digital",
     urlProject: "https://www.codcreativo.com/",
@@ -27,7 +27,7 @@ const projects = [
   {
     nameProject: "JRG Logistics",
     descriptionProject:
-      "Página web para una empresa dedicada a transporte de mercancia, desarrollada con Wordpress y Elementor.",
+      "Desarrollo de sitio web para empresa de transporte de mercancía usando WordPress y Elementor.",
     srcImage: imagenProyectoJRG,
     altImage: "Web JRG Logistics",
     urlProject: "https://jrglogistics.com.co/",
@@ -36,7 +36,7 @@ const projects = [
   {
     nameProject: "Mi Haus Colombia",
     descriptionProject:
-      "Sitio web para una empresa dedicada a la remodelación de vivienda, desarrollada con Wordpress y Elementor",
+      "Sitio web para empresa de remodelación de viviendas, desarrollado con WordPress y Elementor.",
     srcImage: imagenProyectoMiHaus,
     altImage: "Web Mi Haus Colombia",
     urlProject: "https://mihauscol.com/",
@@ -46,7 +46,7 @@ const projects = [
 
 export default function ProjectsGrid() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 auto-rows-[200px] gap-8 mt-10">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 auto-rows-[200px] gap-8">
       {projects.map((post, index) => (
         <CardProject key={index} {...post} />
       ))}

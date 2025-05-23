@@ -16,7 +16,7 @@ export default function Footer() {
           <ul className="block md:flex md:items-end">
             <li className="md:pl-4">
               <Link
-                href="#"
+                href="#hero"
                 className=" text-sm lg:text-lg text-primary-black dark:text-primary-white"
               >
                 Inicio
@@ -24,7 +24,7 @@ export default function Footer() {
             </li>
             <li className="md:pl-4">
               <Link
-                href="#"
+                href="#services"
                 className=" text-sm lg:text-lg text-primary-black dark:text-primary-white"
               >
                 Servicios
@@ -32,7 +32,7 @@ export default function Footer() {
             </li>
             <li className="md:pl-4">
               <Link
-                href="#"
+                href="#projects"
                 className=" text-sm lg:text-lg text-primary-black dark:text-primary-white"
               >
                 Proyectos
@@ -40,7 +40,7 @@ export default function Footer() {
             </li>
             <li className="md:pl-4">
               <Link
-                href="#"
+                href="#about-me"
                 className=" text-sm lg:text-lg text-primary-black dark:text-primary-white"
               >
                 Sobre mi
@@ -49,7 +49,8 @@ export default function Footer() {
           </ul>
           <div className="flex mt-4">
             <Link
-              href="#"
+              href="https://x.com/MundevUx"
+              target="_blank"
               className="rounded-full p-2 principal-bg-gradient mr-4 ml-0 md:mr-0 md:ml-4"
             >
               <svg
@@ -62,7 +63,8 @@ export default function Footer() {
               </svg>
             </Link>
             <Link
-              href="#"
+              href="https://www.linkedin.com/in/cacuitiva/"
+              target="_blank"
               className="rounded-full p-2 principal-bg-gradient mr-4 ml-0 md:mr-0 md:ml-4"
             >
               <svg
@@ -78,7 +80,8 @@ export default function Footer() {
               </svg>
             </Link>
             <Link
-              href="#"
+              href="https://www.instagram.com/mundevux/"
+              target="_blank"
               className="rounded-full p-2 principal-bg-gradient mr-4 ml-0 md:mr-0 md:ml-4"
             >
               <svg

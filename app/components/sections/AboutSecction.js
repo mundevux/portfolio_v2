@@ -87,7 +87,7 @@ export default function AboutSection() {
             a día. Estoy listo para seguir evolucionando en el mundo tech 🚀.
           </p>
         </div>
-        <div className="flex flex-col md:flex-row gap-4 mb-8">
+        <div className="flex flex-col md:flex-row gap-4 pt-4 pb-8">
           <div className="">
             <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four text-xl font-bold">
               Proyectos hechos

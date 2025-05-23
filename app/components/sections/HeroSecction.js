@@ -14,7 +14,7 @@ export default function HeroSecction() {
     "Diseñador UX",
   ];
   return (
-    <div className="mt-20">
+    <div className="mt-20" id="hero">
       <section className="flex flex-col justify-center items-center mb-20 px-4">
         <div className="rounded-full border-2 mb-5">
           <Image
@@ -33,19 +33,15 @@ export default function HeroSecction() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
                 Web
               </span>{" "}
-              enfocado en el Desarrollo{" "}
+              en formación, radicado en{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four ">
-                Frontend
+                Bogotá
               </span>
               .
             </span>
           </p>
           <p className="text-center w-full md:w-4/6 m-auto">
-            Un desarrollador{" "}
-            <span className="text-transparent font-medium bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
-              web
-            </span>{" "}
-            en formación, radicado en Bogotá. Estoy enfocado en{" "}
+            Estoy enfocado en{" "}
             <span className="text-transparent font-medium bg-clip-text bg-gradient-to-r from-gradient-one via-gradient-two to-gradient-four">
               frontend
             </span>{" "}
@@ -90,7 +86,12 @@ export default function HeroSecction() {
           </p>
         </div>
         <div className="flex flex-col justify-center md:flex-row w-full pB-4">
-          <PrincipalButton text="Contactame" link="https://wa.link/ui6ih8" />
+          <PrincipalButton
+            text="Contactame"
+            link="https://wa.link/ui6ih8"
+            as="a"
+            target="_blank"
+          />
           <SecondButton
             text="Ver mis trabajos"
             link="#projects"
